@@ -14,6 +14,7 @@ Model Architecture
 
 The neural network model is built using the Sequential API from Keras. The architecture consists of the following layers:
 Flatten Layer: Flattens the 28x28 input images into a 784-dimensional vector.
+
 Dense Layer 1: Fully connected layer with 128 neurons and ReLU activation function.
 Dense Layer 2: Fully connected layer with 64 neurons and ReLU activation function.
 Output Layer: Fully connected layer with 10 neurons (one for each digit) and softmax activation function
